@@ -1,0 +1,18 @@
+[package]
+name = "computash"
+version = "0.1.0"
+authors = ["Alex Komissarov <k.a.komissar@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = ["pilka_ash"]
+
+[dependencies]
+pilka_ash = { path = "./pilka_ash" }
+ash = "0.31.0"
+ash-window = "0.5.0"
+png = "0.16.8"
+winit = "0.24.0"
+ktx = "0.3.1"
